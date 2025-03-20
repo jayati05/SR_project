@@ -1,0 +1,56 @@
+[tool.poetry]
+name = "customer-service-assistant"
+version = "0.1.0"
+description = "AI-powered customer service assistant using FastAPI and NLP"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "*"
+uvicorn = "*"
+httpx = "*"
+
+# Logging
+loguru = "*"
+pyzmq = "*"
+
+# Audio Processing
+pydub = "*"
+ffmpeg-python = "*"
+torchaudio = "*"
+whisper = "*"
+
+# Machine Learning & NLP
+spacy = "*"
+transformers = "*"
+nltk = "*"
+textblob = "*"
+torch = "*"
+huggingface_hub = "*"
+numpy = "*"
+
+# Configuration & Validation
+pydantic = ">=2.0"
+pyyaml = "*"
+toml = "*"
+jsonschema = "*"
+
+# GUI
+gradio = "*"
+
+# Documentation
+mkdocs-material = ">=9.6.4"
+pymdown-extensions = "*"
+pygments = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.uv]
+# Optional: Configure `uv` settings (not for dependencies)
+
+[tool.ruff]
+line-length = 88
+select = ["ALL"]

@@ -1,0 +1,42 @@
+# FastAPI and Web Server
+fastapi
+uvicorn
+httpx
+
+# Logging
+loguru
+pyzmq
+
+# Audio Processing
+pydub
+ffmpeg-python
+torchaudio
+onnxruntime
+
+# Machine Learning & NLP
+spacy  
+transformers
+nltk
+textblob
+torch
+pyannote.audio
+pyannote.core
+huggingface_hub
+numpy
+eval_type_backport
+
+# Configuration & Validation
+pydantic>=2.0  
+pyyaml
+toml
+jsonschema
+
+# GUI
+gradio
+
+# Documentation
+mkdocs-material
+mkdocs-mermaid2-plugin
+pymdown-extensions
+pygments 
+python-dotenv
